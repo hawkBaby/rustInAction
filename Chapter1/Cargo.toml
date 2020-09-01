@@ -1,0 +1,32 @@
+[package]
+name = "Chapter1"
+version = "0.1.0"
+authors = ["Jad Pamment <jad.pamment@gmail.com>"]
+edition = "2018"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "hello"
+path = "src/ch1-hello.rs"
+
+[[bin]]
+name = "penguins"
+path = "src/ch1-penguins.rs"
+
+[[bin]]
+name = "cereals"
+path = "src/ch1-cereals.rs"
+
+[[bin]]
+name = "race"
+path = "src/ch1-race.rs"
+
+[[bin]]
+name = "fruit"
+path = "src/ch1-fruit.rs"
+
+[[bin]]
+name = "letters"
+path = "src/ch1-letters.rs"
