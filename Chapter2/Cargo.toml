@@ -19,3 +19,7 @@ path = "src/ch2-first-steps.rs"
 [[bin]]
 name = "intro-to-numbers"
 path = "src/ch2-intro-to-numbers.rs"
+
+[[bin]]
+name = "non-base2"
+path = "src/ch2-non-base2.rs"
