@@ -7,3 +7,15 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[[bin]]
+name = "ok"
+path = "src/ch2-ok.rs"
+
+[[bin]]
+name = "first-steps"
+path = "src/ch2-first-steps.rs"
+
+[[bin]]
+name = "intro-to-numbers"
+path = "src/ch2-intro-to-numbers.rs"
