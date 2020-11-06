@@ -7,6 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+num = "*"
 
 [[bin]]
 name = "ok"
@@ -24,3 +25,38 @@ path = "src/ch2-intro-to-numbers.rs"
 name = "non-base2"
 path = "src/ch2-non-base2.rs"
 
+[[bin]]
+name = "complex"
+path = "src/ch2-complex.rs"
+
+[[bin]]
+name = "needle-in-hay"
+path = "src/ch2-needle-in-haystack.rs"
+
+[[bin]]
+name = "bell-nums"
+path = "src/ch2-bell-numbers.rs"
+
+[[bin]]
+name = "cat-nums"
+path = "src/ch2-catalan-numbers.rs"
+
+[[bin]]
+name = "incr"
+path = "src/ch2-while-true-incr-count.rs"
+
+[[bin]]
+name = "match-need"
+path = "src/ch2-match-needles.rs"
+
+[[bin]]
+name = "mandel"
+path = "src/ch2-mandelbrot.rs"
+
+[[bin]]
+name = "lifetime"
+path = "src/ch2-add-with-lifetimes.rs"
+
+[[bin]]
+name = "simple-pattern"
+path = "src/ch2-str-simple-pattern.rs"
