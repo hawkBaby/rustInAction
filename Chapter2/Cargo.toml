@@ -60,3 +60,7 @@ path = "src/ch2-add-with-lifetimes.rs"
 [[bin]]
 name = "simple-pattern"
 path = "src/ch2-str-simple-pattern.rs"
+
+[[bin]]
+name = "simple-linenums"
+path = "src/ch2-simple-with-linenums.rs"
