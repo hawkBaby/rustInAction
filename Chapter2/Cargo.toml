@@ -64,3 +64,16 @@ path = "src/ch2-str-simple-pattern.rs"
 [[bin]]
 name = "simple-linenums"
 path = "src/ch2-simple-with-linenums.rs"
+
+[[bin]]
+name = "simple-enumerate"
+path = "src/ch2-simple-with-enumerate.rs"
+
+[[bin]]
+name = "simple-arrays"
+path = "src/ch2-simple-arrays.rs"
+
+[[bin]]
+name = "intro-vec"
+path = "src/ch2-introducing-vec.rs"
+
