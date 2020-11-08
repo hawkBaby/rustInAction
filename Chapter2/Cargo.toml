@@ -85,3 +85,7 @@ path = "src/ch2-with-regex.rs"
 [[bin]]
 name = "read-file"
 path = "src/ch2-read-file.rs"
+
+[[bin]]
+name = "bufread-file"
+path = "src/ch2-bufreader-lines.rs"
