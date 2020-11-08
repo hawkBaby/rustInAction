@@ -8,6 +8,7 @@ edition = "2018"
 
 [dependencies]
 num = "*"
+regex = "*"
 
 [[bin]]
 name = "ok"
@@ -77,3 +78,10 @@ path = "src/ch2-simple-arrays.rs"
 name = "intro-vec"
 path = "src/ch2-introducing-vec.rs"
 
+[[bin]]
+name = "with-regex"
+path = "src/ch2-with-regex.rs"
+
+[[bin]]
+name = "read-file"
+path = "src/ch2-read-file.rs"
