@@ -1,4 +1,7 @@
 #locks
 */target/*
-Chapter2Old/*
+Chapter2/target/*
+Chapter1/target/*
 Chapter2/tmp/grep-lite/target/*
+Chapter3/tmp/globalerror/target/*
+Chapter3/tmp/globalerror/fileresult/*
