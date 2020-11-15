@@ -28,3 +28,7 @@ path = "src/ch3-not-quite-file-2.rs"
 [[bin]]
 name = "neat"
 path = "src/ch3-defining-files-neatly.rs"
+
+[[bin]]
+name = "parse-log"
+path = "src/ch3-parse-log.rs"
