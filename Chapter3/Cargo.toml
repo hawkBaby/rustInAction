@@ -32,3 +32,23 @@ path = "src/ch3-defining-files-neatly.rs"
 [[bin]]
 name = "parse-log"
 path = "src/ch3-parse-log.rs"
+
+[[bin]]
+name = "file-states"
+path = "src/ch3-file-states.rs"
+
+[[bin]]
+name = "skeleton"
+path = "src/ch3-skeleton-read-trait.rs"
+
+[[bin]]
+name = "impl-display"
+path = "src/ch3-implementing-display.rs"
+
+[[bin]]
+name = "pub-file"
+path = "src/ch3-pub-file.rs"
+
+[[bin]]
+name = "doc-file"
+path = "src/ch3-file-docced.rs"
