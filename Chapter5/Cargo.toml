@@ -1,0 +1,45 @@
+[package]
+name = "Chapter5"
+version = "0.1.0"
+authors = ["Jad Pamment <jad.apamment@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "int-int"
+path = "src/ch5-int-vs-int.rs"
+
+[[bin]]
+name = "f32-u32"
+path = "src/ch5-f32-as-u32.rs"
+
+[[bin]]
+name = "oblivion"
+path = "src/ch5-to-oblivion.rs"
+
+[[bin]]
+name = "bit-pattern"
+path = "src/ch5-u16-bit-patterns.rs"
+#This will fail 
+[[bin]]
+name = "impossible"
+path = "src/ch5-impossible-addition.rs"
+
+[[bin]]
+name = "endian"
+path = "src/ch5-endianness.rs"
+
+[[bin]]
+name = "visual"
+path = "src/ch5-visualising-f32.rs"
+
+[[bin]]
+name = "mock"
+path = "src/ch5-u8-to-mock-rand.rs"
+
+[[bin]]
+name = "cpu1"
+path = "src/ch5-cpu1.rs"

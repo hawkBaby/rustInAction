@@ -12,3 +12,7 @@ edition = "2018"
 [[bin]]
 name = "check-sats-1"
 path = "src/ch4-check-sats-1.rs"
+
+[[bin]]
+name = "check-sats-2"
+path = "src/ch4-check-sats-2.rs"
