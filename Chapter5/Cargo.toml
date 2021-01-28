@@ -43,3 +43,15 @@ path = "src/ch5-u8-to-mock-rand.rs"
 [[bin]]
 name = "cpu1"
 path = "src/ch5-cpu1.rs"
+
+[[bin]]
+name = "cpu2"
+path = "src/ch5-cpu2.rs"
+
+[[bin]]
+name = "cpu3"
+path = "src/ch5-cpu3.rs"
+
+[[bin]]
+name = "cpu4"
+path = "src/ch5-cpu4.rs"
