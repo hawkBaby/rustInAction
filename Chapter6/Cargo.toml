@@ -1,0 +1,40 @@
+[package]
+name = "Chapter6"
+version = "0.1.0"
+authors = ["Jad Pamment <pammenjk@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+piston_window = "0.73"
+piston2d-graphics = "0.23"
+rand = "0.3"
+
+[[bin]]
+name = "pointer1"
+path = "src/ch6-pointer-1.rs"
+
+[[bin]]
+name = "ref"
+path = "src/ch6-references.rs"
+
+[[bin]]
+name = "mem"
+path = "src/ch6-mem.rs"
+
+[[bin]]
+name = "pointer2"
+path = "src/ch6-pointer-2.rs"
+
+[[bin]]
+name = "boxing"
+path = "src/ch6-boxing.rs"
+
+[[bin]]
+name = "fountain"
+path = "src/ch6-fountain.rs"
+
+[[bin]]
+name = "memscan"
+path = "src/ch6-memscan.rs"
